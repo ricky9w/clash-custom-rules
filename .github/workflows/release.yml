@@ -13,14 +13,17 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+    - name: Get Commit SHA
+      id: sha
+      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
     - name: Create Release
       id: create_release
       uses: actions/create-release@v1
       env:
         GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       with:
-        tag_name: ${{ github.sha }}
-        release_name: Release ${{ github.sha }}
+        tag_name: ${{ steps.sha.outputs.sha_short }}
+        release_name: Release ${{ steps.sha.outputs.sha_short }}
         body: |
           Changes in this release:
           ${{ github.event.head_commit.message }}
