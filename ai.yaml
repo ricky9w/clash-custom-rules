@@ -1,0 +1,8 @@
+payload:
+  # > ChatGPT
+  - DOMAIN-SUFFIX,openai.com
+  # > New Bing
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bingapis.com
+  # > Google Bard
+  - DOMAIN,bard.google.com
