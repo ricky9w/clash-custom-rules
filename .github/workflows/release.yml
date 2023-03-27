@@ -27,4 +27,13 @@ jobs:
         body: |
           Changes in this release:
           ${{ github.event.head_commit.message }}
-    
+    - name: Upload Files
+      id: upload_files
+      uses: xresloader/upload-to-github-release@main
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      with:
+        file: "*.yaml"
+        release_id: ${{ steps.create_release.outputs.id }}
+        overwrite: true
+        verbose: true
