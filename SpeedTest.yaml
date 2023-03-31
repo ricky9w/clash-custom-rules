@@ -1,0 +1,13 @@
+payload:
+  # > Fast
+  - +.fast.com
+
+  # > Speedtest by Ookla
+  # - USER-AGENT,SpeedTest*
+  # - DOMAIN-KEYWORD,speedtest
+  - +.ooklaserver.net
+  - speed.dler.io
+  - +.speedtest.net
+
+  # > Speed Test by Cloudflare
+  - +.speed.cloudflare.com

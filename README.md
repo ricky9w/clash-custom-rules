@@ -13,3 +13,7 @@
 + 游戏下载 `GameDownload.yaml`:
   + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/GameDownload.yaml
   + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/GameDownload.yaml
+
++ 测速 `SpeedTest.yaml`:
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/SpeedTest.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/SpeedTest.yaml
