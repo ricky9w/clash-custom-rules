@@ -1,9 +1,9 @@
 payload:
   # > ChatGPT
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - +.openai.com
+  - chat.openai.com.cdn.cloudflare.net
   # > New Bing
-  - DOMAIN-SUFFIX,bing.com
-  - DOMAIN-SUFFIX,bingapis.com
+  - +.bing.com
+  - +.bingapis.com
   # > Google Bard
-  - DOMAIN,bard.google.com
+  - bard.google.com

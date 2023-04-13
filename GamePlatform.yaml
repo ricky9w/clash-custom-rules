@@ -1,45 +1,45 @@
 payload:
-  #Steam平台
-  #不包含登陆
-  - DOMAIN,api.steampowered.com
-  - DOMAIN,store.steampowered.com
-  - DOMAIN-SUFFIX,csgo.wmsj.cn
-  - DOMAIN-SUFFIX,dota2.wmsj.cn
-  - DOMAIN-SUFFIX,fanatical.com
-  - DOMAIN-SUFFIX,humblebundle.com
-  - DOMAIN-SUFFIX,steam-chat.com
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net
-  - DOMAIN-SUFFIX,steamcommunity.com
-  - DOMAIN-SUFFIX,steamcontent.com
-  - DOMAIN-SUFFIX,steamgames.com
-  - DOMAIN-SUFFIX,steamstat.us
-  - DOMAIN-SUFFIX,steamstatic.com
-  - DOMAIN-SUFFIX,steamusercontent.com
+  # Steam 平台
+  # 不包含登陆
+  - api.steampowered.com
+  - store.steampowered.com
+  - +.csgo.wmsj.cn
+  - +.dota2.wmsj.cn
+  - +.fanatical.com
+  - +.humblebundle.com
+  - +.steam-chat.com
+  - +.steamcdn-a.akamaihd.net
+  - +.steamcommunity.com
+  - +.steamcontent.com
+  - +.steamgames.com
+  - +.steamstat.us
+  - +.steamstatic.com
+  - +.steamusercontent.com
 
-  #Epic平台
-  - DOMAIN-SUFFIX,epicgames.com
-  - DOMAIN-SUFFIX,ol.epicgames.com
-  - DOMAIN-SUFFIX,helpshift.com
-  - DOMAIN-SUFFIX,paragon.com
-  - DOMAIN-SUFFIX,unrealengine.com
+  # Epic 平台
+  - +.epicgames.com
+  - +.ol.epicgames.com
+  - +.helpshift.com
+  - +.paragon.com
+  - +.unrealengine.com
 
-  #uplay平台
-  # uplay登录
-  #- DOMAIN,public-ubiservices.ubi.com
-  # uplay客户端更新（非游戏下载）
-  - DOMAIN,static3.cdn.ubi.com
-  # uplay云同步
-  - DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
-  - DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
-  # uplay不显示等级/不显示好友等问题/卡正在初始化（不含登陆与云同步）
-  - DOMAIN,public-im-ubiservices.ubi.com
-  - DOMAIN,msr-public-ubiservices.ubi.com
-  - DOMAIN,public-ws.aws-ubiservices.ubi.com
-  - DOMAIN,public.aws-ubiservices.ubi.com
-  - DOMAIN,public-ws-ubiservices.ubi.com
-  - DOMAIN,api-ubiservices.ubi.com
-  - DOMAIN,lb-upc-dmx.ubisoft.com
-  - DOMAIN,msr-api-ubiservices.ubi.com
-  - DOMAIN,dmx.upc.ubisoft.com
+  # uplay 平台
+  # uplay 登录
+  # - public-ubiservices.ubi.com
+  # uplay 客户端更新 (非游戏下载)
+  - static3.cdn.ubi.com
+  # uplay 云同步
+  - ubisoft-uplay-savegames.s3.amazonaws.com
+  - ubisoft-orbit-savegames.s3.amazonaws.com
+  # uplay 不显示等级/不显示好友等问题/卡正在初始化 (不含登陆与云同步)
+  - public-im-ubiservices.ubi.com
+  - msr-public-ubiservices.ubi.com
+  - public-ws.aws-ubiservices.ubi.com
+  - public.aws-ubiservices.ubi.com
+  - public-ws-ubiservices.ubi.com
+  - api-ubiservices.ubi.com
+  - lb-upc-dmx.ubisoft.com
+  - msr-api-ubiservices.ubi.com
+  - dmx.upc.ubisoft.com
 
-  #origin平台
+  # origin 平台
