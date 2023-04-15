@@ -17,3 +17,7 @@
 + 测速 `SpeedTest.yaml`:
   + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/SpeedTest.yaml
   + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/SpeedTest.yaml
+
++ GitHub `GitHub.yaml`:
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/GitHub.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/GitHub.yaml
