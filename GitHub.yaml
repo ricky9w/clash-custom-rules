@@ -1,4 +1,5 @@
 payload:
+  - '+.github.io'
   - 'github-cloud.s3.amazonaws.com'
   - '+.github.blog'
   - '+.github.com'
