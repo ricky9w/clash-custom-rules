@@ -21,3 +21,11 @@
 + GitHub `GitHub.yaml`:
   + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/GitHub.yaml
   + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/GitHub.yaml
+
++ NJU 校内可访问的学术资源域名 `ScholarDomainNJU.yaml`:
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/ScholarDomainNJU.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/ScholarDomainNJU.yaml
+
++ NJU 校内可访问的学术资源 IP `ScholarIPNJU.yaml`:
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/ScholarIPNJU.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/ScholarIPNJU.yaml
