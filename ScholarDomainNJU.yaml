@@ -36,7 +36,6 @@ payload:
   - www.nature.com
   - kangxi.bgtrdata.com
   - cn.gtadata.com
-  - www.cnki.net
   - www.artlib.cn
   - journal.hep.com.cn
   - www.libvideo.com
@@ -53,7 +52,6 @@ payload:
   - db.cei.cn
   - www.notefirst.com
   - dh.ersjk.com
-  - data.cnki.net
   - ieeexplore.ieee.org
   - data.lilun.cn
   - www.amjbot.org
@@ -153,3 +151,4 @@ payload:
   - www.futuremedicine.com
   - worldeconomy.drcnet.com.cn
   - +.onlinelibrary.wiley.com
+  - +.cnki.net
