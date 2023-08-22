@@ -29,3 +29,7 @@
 + NJU 校内可访问的学术资源 IP `ScholarIPNJU.yaml`:
   + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/ScholarIPNJU.yaml
   + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/ScholarIPNJU.yaml
+
++ NetEaseMusic 网易云音乐域名和 IP `NetEaseMusic.yaml`:
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/NetEaseMusic.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/NetEaseMusic.yaml
