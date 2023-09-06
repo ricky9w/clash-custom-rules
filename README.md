@@ -33,3 +33,27 @@
 + NetEaseMusic 网易云音乐域名和 IP `NetEaseMusic.yaml`:
   + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/NetEaseMusic.yaml
   + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/NetEaseMusic.yaml
+
+来自 ACL4SSR 项目的广告过滤规则, 原项目中为 Plain Text 格式, 在此转换为 YAML 格式以兼容部分老旧的 Clash 客户端.
+
+[ACL4SSR/Clash/config/ACL4SSR_AdblockPlus.ini at master · ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/config/ACL4SSR_AdblockPlus.ini)
+
++ `BanAD.yaml`:
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/BanAD.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/BanAD.yaml
+
++ `BanEasyList.yaml`
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/BanEasyList.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/BanEasyList.yaml
+
++ `BanEasyListChina.yaml`
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/BanEasyListChina.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/BanEasyListChina.yaml
+
++ `BanEasyPrivacy.yaml`
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/BanEasyPrivacy.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/BanEasyPrivacy.yaml
+
++ `BanProgramAD.yaml`
+  + https://fastly.jsdelivr.net/gh/ricky9w/clash-custom-rules@master/BanProgramAD.yaml
+  + https://raw.githubusercontent.com/ricky9w/clash-custom-rules/master/BanProgramAD.yaml
